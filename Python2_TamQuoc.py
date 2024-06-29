@@ -295,7 +295,9 @@ else:
                           plot_bgcolor='rgba(255,255,255,0)')
                 fig.update_traces(marker=dict(line=dict(color='white', width=1.5)), texttemplate='%{percent:.1%}', textposition='inside')
                 st.plotly_chart(fig)
-                penalty_url="https://c.ndtvimg.com/2022-12/3bvd883o_lionel-messi-goal_625x300_19_December_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+                goal_url="https://c.ndtvimg.com/2022-12/3bvd883o_lionel-messi-goal_625x300_19_December_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+                st.image(goal_url, use_column_width=True)
+                penalty_url="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_1200%2Cq_auto:good%2Cw_1200/MTk0NTM1NzUzNDQxNjE3NTE4/gonzalo-montiel.jpg"
                 st.image(penalty_url, use_column_width=True)
 # Display the plot in Streamlit
                 st.pyplot(plt)
@@ -411,6 +413,8 @@ else:
                 st.plotly_chart(fig)
                 card_url="https://phapluatxahoi.kinhtedothi.vn/stores/news_dataimages/2022/122022/13/17/fifa-xoa-the-cho-cac-cau-thu-truoc-vong-ban-ket.jpg?rt=20221213172822"
                 st.image(card_url, use_column_width=True)
+                card2_url="https://ss-i.thgim.com/public/incoming/rhgyua/article66183714.ece/alternates/FREE_1200/2022-11-25T123942Z_1713214407_UP1EIBP0WUTEB_RTRMADP_3_SOCCER-WORLDCUP-WAL-IRN-REPORT.JPG"
+                st.image(card2_url, use_column_width=True)
         with col1:
                 st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">UNFAIR PLAY ACTIOANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
@@ -485,6 +489,8 @@ else:
                 st.plotly_chart(fig, use_container_width=True)
                 possession_url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/KVR5YXPPORIOPATIZPDP4D7PJI.jpg"
                 st.image(possession_url, use_column_width=True)
+                possession2_url="https://lh3.googleusercontent.com/HgGcsLnU9nEdBczcwImV_NVCDFlsWzHl9Oyog3EwcP4Qiq25udQoNQd--m-EHrbLnWiZr8IRFnTKnZkFCuPsFR4NXL3Jp7BO2VAeYkKgrnZzLfY=s750"
+                st.image(possession2_url, use_column_width=True)
             with col2:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">BALL POSSESSION ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
@@ -570,6 +576,8 @@ else:
                     st.plotly_chart(fig_turnovers, use_container_width=True)
                     pressing_url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/KVR5YXPPORIOPATIZPDP4D7PJI.jpg"
                     st.image(pressing_url, use_column_width=True)
+                    pressing2_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/Screenshot-121-1200x540-1-1200x540.png"
+                    st.image(pressing2_url, use_column_width=True)
             with col1:
                 col1 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">COUNTER & PRESSING ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
