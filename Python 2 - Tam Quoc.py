@@ -6,9 +6,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
+import os
 
-tamquoc = get_img_as_base64(os.path.join('images', "TAm quoc.jpg"))
-vgu = get_img_as_base64(os.path.join('images', "VGU python.png"))
+tamquoc = (os.path.join('images', "TAm quoc.jpg"))
+vgu = (os.path.join('images', "VGU python.png"))
 
 st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wide")
 
@@ -408,7 +409,7 @@ else:
 
                 st.plotly_chart(fig)
         with col1:
-                col1: st.container()
+                st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">UNFAIR PLAY ACTIOANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
                 st.markdown("""
             <div style= "font-size:25px;">
