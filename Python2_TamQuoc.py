@@ -295,6 +295,8 @@ else:
                           plot_bgcolor='rgba(255,255,255,0)')
                 fig.update_traces(marker=dict(line=dict(color='white', width=1.5)), texttemplate='%{percent:.1%}', textposition='inside')
                 st.plotly_chart(fig)
+                penalty_url="https://c.ndtvimg.com/2022-12/3bvd883o_lionel-messi-goal_625x300_19_December_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+                st.image(penalty_url, use_column_width=True)
 # Display the plot in Streamlit
                 st.pyplot(plt)
 
@@ -407,6 +409,8 @@ else:
                         ))
 
                 st.plotly_chart(fig)
+                card_url="https://phapluatxahoi.kinhtedothi.vn/stores/news_dataimages/2022/122022/13/17/fifa-xoa-the-cho-cac-cau-thu-truoc-vong-ban-ket.jpg?rt=20221213172822"
+                st.image(card_url, use_column_width=True)
         with col1:
                 st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">UNFAIR PLAY ACTIOANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
@@ -479,7 +483,8 @@ else:
                 fig.update_yaxes(showgrid=False)
 
                 st.plotly_chart(fig, use_container_width=True)
-
+                possession_url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/KVR5YXPPORIOPATIZPDP4D7PJI.jpg"
+                st.image(possession_url, use_column_width=True)
             with col2:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">BALL POSSESSION ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
@@ -563,7 +568,8 @@ else:
                         tickfont=dict(size=20, family="SW-Gilroy", color="black", weight="bold")
                         ))
                     st.plotly_chart(fig_turnovers, use_container_width=True)
-
+                    pressing_url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/KVR5YXPPORIOPATIZPDP4D7PJI.jpg"
+                    st.image(pressing_url, use_column_width=True)
             with col1:
                 col1 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">COUNTER & PRESSING ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
