@@ -24,7 +24,7 @@ page_bg_img = f"""
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load FIFA World Cup 2022 data
-wc = pd.read_csv(r'C:\Users\DELL\Downloads\wc1.csv', encoding='latin-1') 
+wc = pd.read_csv('wc1.csv') 
 
 # Define the function Goal types
 def Goal_type(Country_name):
