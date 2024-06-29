@@ -491,6 +491,8 @@ else:
                 st.image(possession_url, use_column_width=True)
                 possession2_url="https://lh3.googleusercontent.com/HgGcsLnU9nEdBczcwImV_NVCDFlsWzHl9Oyog3EwcP4Qiq25udQoNQd--m-EHrbLnWiZr8IRFnTKnZkFCuPsFR4NXL3Jp7BO2VAeYkKgrnZzLfY=s750"
                 st.image(possession2_url, use_column_width=True)
+                possession3_url="https://turntable.kagiso.io/images/32QA9J8-highres.width-800.jpg"
+                st.image(possession3_url, use_column_width=True)
             with col2:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">BALL POSSESSION ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
@@ -578,6 +580,8 @@ else:
                     st.image(pressing_url, use_column_width=True)
                     pressing2_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/Screenshot-121-1200x540-1-1200x540.png"
                     st.image(pressing2_url, use_column_width=True)
+                    pressing3_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/export-7.png"
+                    st.image(pressing3_url, use_column_width=True)
             with col1:
                 col1 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">COUNTER & PRESSING ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
