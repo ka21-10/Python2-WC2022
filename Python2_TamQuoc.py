@@ -295,12 +295,13 @@ else:
                           plot_bgcolor='rgba(255,255,255,0)')
                 fig.update_traces(marker=dict(line=dict(color='white', width=1.5)), texttemplate='%{percent:.1%}', textposition='inside')
                 st.plotly_chart(fig)
+                # Display the plot in Streamlit
+                st.pyplot(plt)
                 goal_url="https://c.ndtvimg.com/2022-12/3bvd883o_lionel-messi-goal_625x300_19_December_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
                 st.image(goal_url, use_column_width=True)
                 penalty_url="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_1200%2Cq_auto:good%2Cw_1200/MTk0NTM1NzUzNDQxNjE3NTE4/gonzalo-montiel.jpg"
                 st.image(penalty_url, use_column_width=True)
-# Display the plot in Streamlit
-                st.pyplot(plt)
+)
 
             with col2:
                 col2 = st.container()
