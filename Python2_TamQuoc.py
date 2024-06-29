@@ -16,7 +16,7 @@ st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wi
 page_bg_img = """
         <style>
         [data-testid="stAppViewContainer"] > .main {
-            background-image: url("https://i.pinimg.com/564x/35/f6/b2/35f6b269dbeeb05dd7a3c50fa83b444f.jpg");
+            background-image: url("https://i.pinimg.com/736x/0e/fd/9e/0efd9e4b5a627cdbc2ae55ede2db4153.jpg");
             background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
