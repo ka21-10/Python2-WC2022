@@ -16,7 +16,7 @@ st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wi
 page_bg_img = """
         <style>
         [data-testid="stAppViewContainer"] > .main {
-            background-image: url("https://thuthuatphanmem.vn/uploads/2016/04/11/hinh-nen-powerpoint-dep-khac-3_093509.png");
+            background-image: url("https://www.freeppt.net/background/Football_sport_player_vector_background.jpg");
             background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
