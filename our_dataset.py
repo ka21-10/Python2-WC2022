@@ -124,7 +124,7 @@ def show_our_dataset():
             </div>
                         """,unsafe_allow_html=True)
     # Load and display the dataset
-    file_path = 'C:/Users/DELL/Downloads/wc1.csv'
+    file_path = 'wc1.csv'
     wc = pd.read_csv(file_path, encoding='latin-1')
     url= "https://www.kaggle.com/datasets/die9origephit/fifa-world-cup-2022-complete-dataset"  
     st.dataframe(wc,width=500, height= 500, use_container_width=True)
