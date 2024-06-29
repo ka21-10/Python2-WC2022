@@ -10,14 +10,13 @@ import os
 
 tamquoc = (os.path.join('images', "TAm quoc.jpg"))
 vgu = (os.path.join('images', "VGU python.png"))
-arg=(os.path.join('images', "bg.png"))
 
 st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wide")
 
 page_bg_img = """
         <style>
         [data-testid="stAppViewContainer"] > .main {
-            background-image: url('bg.png');
+            background-image: url('https://drive.google.com/file/d/1DeTxRmdIu0yfgiGILJOC-Jq5QieUw3u9/view?fbclid=IwZXh0bgNhZW0CMTAAAR1solKUGVMvVVoVH2GqmDXESCMKH75KuqOT-wsAVjzAgf5PgVicmqfC_Yk_aem_qjNumvJwQ3vAuZCjuuNCmg');
             background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
