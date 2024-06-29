@@ -73,7 +73,7 @@ def show_our_team():
     left_column, right_column = st.columns([0.6, 0.4], gap="small")
     with left_column:
         custom_colored_header(label="Team Tam Quoc", description="Coached by Dr Do Duc Tan", color_name="blue")
-        image_path = 'C:/Users/DELL/Downloads/TAm quoc.jpg'  # Adjust the path according to your environment
+        image_path = 'TAmq quoc.jpg'  # Adjust the path according to your environment
         image = Image.open(image_path)
         original_width = image.size[0]
         new_width = int(original_width * 0.3)
@@ -81,7 +81,7 @@ def show_our_team():
 
     with right_column:
         custom_colored_header(label="From VGU", description="Vietnamese-German University", color_name="blue")
-        image_path2 = 'C:/Users/DELL/Downloads/VGU python.png'
+        image_path2 = 'VGU python.png'
         image2 = Image.open(image_path2)
         st.image(image2, use_column_width=True)
 
