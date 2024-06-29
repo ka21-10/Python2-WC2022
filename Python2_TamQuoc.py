@@ -14,18 +14,17 @@ arg=(os.path.join('images', "bg.png"))
 
 st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wide")
 
-# Move the background image code here
-page_bg_img = f"""
+page_bg_img = """
         <style>
-        [data-testid="stAppViewContainer"] > .main {{
-        background-image: url('bg.png');
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: local;
-        }}
-        </style>
-        """
+        [data-testid="stAppViewContainer"] > .main {
+            background-image: url('bg.png');
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: local;
+                }
+                </style>
+                """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load FIFA World Cup 2022 data
