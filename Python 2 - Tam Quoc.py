@@ -7,6 +7,9 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
 
+tamquoc = get_img_as_base64(os.path.join('images', "TAm quoc.jpg"))
+vgu = get_img_as_base64(os.path.join('images', "VGU python.png"))
+
 st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wide")
 
 # Move the background image code here
