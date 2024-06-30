@@ -123,6 +123,10 @@ def show_our_dataset():
 <strong>57. forced turnovers team2</strong>: The number of times team 2 forced the opponent to lose possession of the ball.<br>
             </div>
                         """,unsafe_allow_html=True)
+    custom_colored_header(
+        label="Where we visualized data from?",
+        color_name="blue",
+        description="This table shows the dataset and the link to the original dataset.")
     # Load and display the dataset
     file_path = 'wc1.csv'
     wc = pd.read_csv(file_path, encoding='latin-1')
