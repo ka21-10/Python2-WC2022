@@ -208,8 +208,6 @@ def show_intro():
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find 
             all the necessary information you need to study some unseen tactics, strategies, 
             and influential factors in football.
-            Hopefully, our analysis can shed light on tactical mechanisms for the success of 
-            teams in the tournament.
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
