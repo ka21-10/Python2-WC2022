@@ -377,7 +377,7 @@ else:
                     legend_title_text='Types of Unfair Actions',
                     title={
                             'text': 'Unfair Play Actions',
-                            'font': {'size': 30, 'color': 'black', 'family': 'SW-Gilroy', 'weight': 'bold'},
+                            'font': {'size': 20, 'color': 'black', 'family': 'SW-Gilroy', 'weight': 'bold'},
                             'x': 0.5,
                             'xanchor': 'center'
                             },
