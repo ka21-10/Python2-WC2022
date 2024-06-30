@@ -16,7 +16,7 @@ st.set_page_config(page_title="FIFA WC 2022 ANALYSIS",page_icon="⚽",layout="wi
 page_bg_img = """
         <style>
         [data-testid="stAppViewContainer"] > .main {
-            background-image: url("https://img.freepik.com/free-vector/flat-world-football-championship-background_23-2149747238.jpg");
+            background-image: url("https://www.freeppt.net/background/Football_sport_player_vector_background.jpg");
             background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
