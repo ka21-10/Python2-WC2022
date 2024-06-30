@@ -207,7 +207,7 @@ def show_intro():
             <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find all the 
             necessary information you need to study about football. <strong> Please turn off the left slidebar </strong>
-            of 4 different categories on next page to view content!"
+            of 4 different categories on next page to view content!
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
