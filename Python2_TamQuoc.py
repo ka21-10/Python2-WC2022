@@ -196,7 +196,7 @@ def show_intro():
     st.divider()
     
     st.title('Introduction')
-    col1, col2 = st.columns([0.4, 0.6], gap="small")
+    col1, col2 = st.columns([0.5, 0.5], gap="small")
     with col1:
 
         st.markdown("<h3 style='font-size: 25px;'>Please enter your name to begin our journey</h3>", unsafe_allow_html=True)
