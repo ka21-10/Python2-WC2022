@@ -18,7 +18,7 @@ page_bg_img = """
         [data-testid="stAppViewContainer"] > .main {
             background-image: url("https://img.freepik.com/premium-vector/banner-background-theme-world-championship-qatar-2022_561465-247.jpg?w=826");
             background-size: 100%;
-            background-position: center;
+            background-position: left;
             background-repeat: no-repeat;
             background-attachment: local;
                 }
