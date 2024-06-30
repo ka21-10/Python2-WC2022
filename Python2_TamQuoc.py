@@ -301,7 +301,6 @@ else:
                 st.image(goal_url, use_column_width=True)
                 penalty_url="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_1200%2Cq_auto:good%2Cw_1200/MTk0NTM1NzUzNDQxNjE3NTE4/gonzalo-montiel.jpg"
                 st.image(penalty_url, use_column_width=True)
-)
 
             with col2:
                 col2 = st.container()
