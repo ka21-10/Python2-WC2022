@@ -213,7 +213,7 @@ def show_intro():
     st.markdown(f"""
             <p style="font-size: 25px;">
             <strong> Instructions: </strong>Please turn off the left slidebar <br>
-            of 4 categories on next page to view content! 
+            of 4 categories on next page to view content clearly! 
              </p>
                 """, unsafe_allow_html=True)
     
