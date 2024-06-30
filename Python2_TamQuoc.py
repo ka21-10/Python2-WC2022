@@ -207,8 +207,8 @@ def show_intro():
             <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find 
             all the necessary information you need to study some unseen tactics, strategies, 
-            and influential factors that help spread "football to all". Please turn the left
-            slidebar of 4 different categories off to see the content on the main page."
+            and influential factors that help spread "football to all". <strong> Please turn off the
+            left slidebar </strong> of 4 different categories on next page to see the content!"
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
@@ -269,7 +269,7 @@ else:
         tab0, tab2, tab3, tab4 = st.tabs(["**GOAL TYPES**", "**UNFAIR PLAY ACTIONS**", "**BALL POSSESSION**", "**COUNTER & PRESSING TECHNIQUES**"])
         with tab0:
             st.subheader("Goal Type Distribution")
-            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A ROUND 16 TEAM!</p>', unsafe_allow_html=True)
+            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A ROUND 16 TEAM BELOW!</p>', unsafe_allow_html=True)
             selected_country_goal = st.selectbox(label=" ", options=Country_names, key="goal_type_team_select")
             col1, col2 = st.columns([0.4, 0.6], gap="small")
             with col1:
@@ -337,7 +337,7 @@ else:
             """, 
             unsafe_allow_html=True
             )
-            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A ROUND 16 TEAM!</p>', unsafe_allow_html=True)
+            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A ROUND 16 TEAM BELOW!</p>', unsafe_allow_html=True)
             selected_country_unfair_play = st.selectbox(label=" ", options=Country_names, key="unfair_play_team_select")
             col1, col2 = st.columns([0.4, 0.6], gap="small")
             with col2:
@@ -443,7 +443,7 @@ else:
                 median_possession = Possession_official.groupby('Team')['Possession percent'].median().sort_values(ascending=False)
                 ordered_teams = median_possession.index.tolist()
         # Add a slider for selecting the number of countries
-                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF CUNTRIES TO DISPLAY!</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF CUNTRIES TO DISPLAY BELOW !</p>', unsafe_allow_html=True)
                 num_countries = st.slider("", 
                           min_value=5, 
                           max_value=15, 
@@ -504,7 +504,7 @@ else:
                 </div>""", unsafe_allow_html=True)
         with tab4:
             st.subheader("Counter & Pressing Techniques")
-            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A TECHNIQUE!</p>', unsafe_allow_html=True)
+            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A TECHNIQUE BELOW!</p>', unsafe_allow_html=True)
     
     # Checkboxes for selection
             switches_of_play_selected = st.checkbox('Switches of play')
