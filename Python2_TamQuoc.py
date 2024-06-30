@@ -190,7 +190,7 @@ pressing_official['Team'] = pd.Categorical(pressing_official['Team'], categories
 # Function to show the introduction page
 def show_intro():
     st.markdown("""
-        <h1 style='text-align: left; font-size: 80px;'>FOOTBALL FOR ALL</h1>
+        <h1 style='text-align: left; font-size: 100px;'>FOOTBALL FOR ALL</h1>
     """, unsafe_allow_html=True)
     
     st.divider()
