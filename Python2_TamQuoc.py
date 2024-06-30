@@ -443,7 +443,7 @@ else:
                 median_possession = Possession_official.groupby('Team')['Possession percent'].median().sort_values(ascending=False)
                 ordered_teams = median_possession.index.tolist()
         # Add a slider for selecting the number of countries
-                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF CUNTRIES TO DISPLAY !</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF COUNTRIES TO DISPLAY !</p>', unsafe_allow_html=True)
                 num_countries = st.slider("", 
                           min_value=5, 
                           max_value=15, 
