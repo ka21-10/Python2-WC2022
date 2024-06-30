@@ -207,7 +207,7 @@ def show_intro():
             <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find 
             all the necessary information you need to study some unseen tactics, strategies, 
-            and influential factors that help spread "football to all"
+            and influential factors that help spread "football to all". 
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
