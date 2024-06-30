@@ -377,7 +377,7 @@ else:
                     legend_title_text='Types of Unfair Actions',
                     title={
                             'text': 'Unfair Play Actions',
-                            'font': {'size': 20, 'color': 'black', 'family': 'SW-Gilroy', 'weight': 'bold'},
+                            'font': {'size': 30, 'color': 'black', 'family': 'SW-Gilroy', 'weight': 'bold'},
                             'x': 0.5,
                             'xanchor': 'center'
                             },
@@ -389,7 +389,7 @@ else:
                     x=1,  # position at the right
                     title=dict(
                     text='Types of Unfair Actions',
-                    font=dict(size=30, family="SW-Gilroy", color="black", weight="bold")  # Set legend title font size and bold
+                    font=dict(size=25, family="SW-Gilroy", color="black", weight="bold")  # Set legend title font size and bold
                     ),
                     font=dict(size=20, family="SW-Gilroy", color="black")  # Set legend item font size
                     )
