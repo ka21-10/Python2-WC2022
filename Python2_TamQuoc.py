@@ -204,10 +204,9 @@ def show_intro():
         if prompt:
             st.markdown(f"""
             <p style="font-size: 30px;">
-            <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
-            Welcome to our analysis website about FIFA World Cup 2022.
-            Here you will find all the necessary information you need to <br>
-            study about football. 
+            <strong>Hello <i>{prompt}</i>.</strong> You are such a football enthusiast!
+            Welcome to our analysis website about FIFA World Cup 2022.Here you will find 
+            all the necessary information you need to study about football. 
             </p>
                 """, unsafe_allow_html=True)
     st.markdown(f"""
