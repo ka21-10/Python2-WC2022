@@ -207,13 +207,12 @@ def show_intro():
             <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find all the 
             necessary information you need to study about football. <strong> Please turn off the left slidebar </strong>
-            of 4 different categories on next page to 
-            view content!"
+            of 4 different categories on next page to view content!"
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
     
-    if st.button("Press here to get started"):
+    if st.button("Click here to get started"):
         st.session_state.clicked = True
         st.experimental_rerun()  # Add this line
 
@@ -304,7 +303,7 @@ else:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">GOAL TYPE ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
                 st.markdown("""
-                <div style = "font-size: 25px;">
+                <div style = "font-size: 20px;">
                 These pie charts show the percentage of four different types of goals by sixteen teams in the round of 16 World Cup 2022. 
                 Overall, it is observable that there is an overwhelming preference for assisted goals across all countries, while the occurrence of opponents' own goals is exceptionally uncommon.
                 <br><br>
@@ -415,9 +414,9 @@ else:
                 st.image(card2_url, use_column_width=True)
         with col1:
                 st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">UNFAIR PLAY ACTIOANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Unfair Play Action Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
-            <div style= "font-size:25px;">
+            <div style= "font-size:20px;">
             The three bar charts illustrate the number of total fouls and red and yellow cards per match received by teams that
             enter the Round of 16. At first glance, most teams played not too unfairly, with very few red cards per match. It is also
             apparent that the Netherlands had the most unfair style of play, with the highest stats of all variables. Meanwhile,
@@ -495,7 +494,7 @@ else:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">BALL POSSESSION ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
                 st.markdown("""
-                <div style="font-size: 25px;">
+                <div style="font-size: 20px;">
                 The following box plots depict the possession distribution of the top 16 teams in the 2022 World Cup. 
                 <br><br>  
                 Most teams ranged their median possession rate from 40% to 60%, suggesting a balanced approach to most teams' possession. However, there were also cases of national teams that needed to be more dominant and flexible. There were 11 teams within the range of 40% to 60%. This list included most of the top-ranking countries and the 3 out of 4 teams that entered the semi-finals (Argentina, France, and Croatia). This showed the trend of each team trying to possess the ball with their opponents. This suggested that dominance in game tempo and flow was not the only aspect influencing the match's result. Spain had the most excellent median possession rate (72%). The country attempted to take over the game with persistent ball control, with the highest recorded rate of about 78%. This was more than fivefold the lowest possession rate, less than 15%. Despite having the lowest median - only around 28% - Japan holds the most extensive possession range among the 16 teams. The wide range of possession percentages for Japan (from 8% to 47%) indicates that Japan's possession varied significantly throughout the matches. Also, two of the four top teams that year, Argentina and Morocco, followed Japan in this trend. This suggested that the gameplay of some teams might have been more flexible than other teams, with high and low possession instances.
@@ -582,7 +581,7 @@ else:
                 col1 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">COUNTER & PRESSING ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
                 st.markdown("""
-            <div style="font-size: 25px;">
+            <div style="font-size: 20px;">
             The line plots illustrate the average number of forced turnovers and switches of play for the 16 best teams in the World Cup 2022.
             <br><br>
             On the one hand, the mean number of forced turnovers varies significantly, ranging from 58 to 91, which is somewhat more
