@@ -208,7 +208,7 @@ def show_intro():
             </p>
                 """, unsafe_allow_html=True)
     st.markdown(f"""
-            <p style="font-size: 30px;">
+            <p style="font-size: 25px;">
             Welcome to our analysis website about FIFA World Cup 2022.<br>
             Here you will find all the necessary information you need to <br>
             study about football. <strong> Please turn off the left slidebar </strong> <br>
