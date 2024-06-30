@@ -204,14 +204,15 @@ def show_intro():
         if prompt:
             st.markdown(f"""
             <p style="font-size: 30px;">
-            <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
+            <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong> <br>
+            Welcome to our analysis website about FIFA World Cup 2022.<br>
+            Here you will find all the necessary information you need to <br>
+            study about football. 
             </p>
                 """, unsafe_allow_html=True)
     st.markdown(f"""
             <p style="font-size: 25px;">
-            Welcome to our analysis website about FIFA World Cup 2022.<br>
-            Here you will find all the necessary information you need to <br>
-            study about football. <strong> Please turn off the left slidebar </strong> <br>
+            <strong> Instructions: </strong>Please turn off the left slidebar <br>
             of 4 different categories on next page to view content! 
              </p>
                 """, unsafe_allow_html=True)
