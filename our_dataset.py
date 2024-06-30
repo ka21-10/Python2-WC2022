@@ -126,7 +126,7 @@ def show_our_dataset():
     custom_colored_header(
         label="Where we visualized data from?",
         color_name="blue",
-        description="This table shows the dataset and the link below to the original dataset.")
+        description="This table shows the dataset and the original link below dataset.")
     # Load and display the dataset
     file_path = 'wc1.csv'
     wc = pd.read_csv(file_path, encoding='latin-1')
