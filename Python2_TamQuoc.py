@@ -294,14 +294,12 @@ else:
                 fig.update_traces(marker=dict(line=dict(color='white', width=1.5)), texttemplate='%{percent:.1%}', textposition='inside')
                 st.plotly_chart(fig)
                 # Display the plot in Streamlit
-                goal_url="https://c.ndtvimg.com/2022-12/3bvd883o_lionel-messi-goal_625x300_19_December_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
-                st.image(goal_url, use_column_width=True)
                 penalty_url="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_1200%2Cq_auto:good%2Cw_1200/MTk0NTM1NzUzNDQxNjE3NTE4/gonzalo-montiel.jpg"
                 st.image(penalty_url, use_column_width=True)
 
             with col2:
                 col2 = st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">GOAL TYPE ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Goal Type Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
                 <div style = "font-size: 20px;">
                 These pie charts show the percentage of four different types of goals by sixteen teams in the round of 16 World Cup 2022. 
@@ -442,7 +440,7 @@ else:
                 median_possession = Possession_official.groupby('Team')['Possession percent'].median().sort_values(ascending=False)
                 ordered_teams = median_possession.index.tolist()
         # Add a slider for selecting the number of countries
-                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF CUNTRIES TO DISPLAY BELOW !</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SCROLL TO SELECT THE NUMBER OF CUNTRIES TO DISPLAY !</p>', unsafe_allow_html=True)
                 num_countries = st.slider("", 
                           min_value=5, 
                           max_value=15, 
@@ -492,7 +490,7 @@ else:
                 st.image(possession3_url, use_column_width=True)
             with col2:
                 col2 = st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">BALL POSSESSION ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Ball Possession Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
                 <div style="font-size: 20px;">
                 The following box plots depict the possession distribution of the top 16 teams in the 2022 World Cup. 
@@ -575,11 +573,9 @@ else:
                     st.plotly_chart(fig_turnovers, use_container_width=True)
                     pressing2_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/Screenshot-121-1200x540-1-1200x540.png"
                     st.image(pressing2_url, use_column_width=True)
-                    pressing3_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/export-7.png"
-                    st.image(pressing3_url, use_column_width=True)
             with col1:
                 col1 = st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">COUNTER & PRESSING ANALYSIS OF ALL TEAMS</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Counter & Pressing Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
             <div style="font-size: 20px;">
             The line plots illustrate the average number of forced turnovers and switches of play for the 16 best teams in the World Cup 2022.
