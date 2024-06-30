@@ -209,9 +209,9 @@ def show_intro():
                 """, unsafe_allow_html=True)
     st.markdown(f"""
             <p style="font-size: 30px;">
-            Welcome to our analysis website about FIFA World Cup 2022. 
-            Here you will find all the necessary information you need to study 
-            about football. <strong> Please turn off the left slidebar </strong> 
+            Welcome to our analysis website about FIFA World Cup 2022.<br>
+            Here you will find all the necessary information you need to study <br>
+            about football. <strong> Please turn off the left slidebar </strong> <br>
             of 4 different categories on next page to view the content! 
              </p>
                 """, unsafe_allow_html=True)
