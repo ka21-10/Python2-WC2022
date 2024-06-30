@@ -212,7 +212,7 @@ def show_intro():
                 """, unsafe_allow_html=True)
     st.markdown(f"""
             <p style="font-size: 25px;">
-            <strong> Instructions: </strong>Please turn off the left slidebar <br>
+            <strong> Instructions: </strong>Please turn off the left sidebar <br>
             of 4 categories on next page to view content clearly! 
              </p>
                 """, unsafe_allow_html=True)
@@ -283,7 +283,7 @@ else:
                      color_discrete_sequence=['navajowhite', 'yellow', 'orange', 'orangered'], 
                      width=600, height=600)
                 fig.update_layout(showlegend=True,
-                          title= {'text':'GOAL TYPE DISTRIBUTION','font':{'family':'SVN-Gilroy','size':20}},
+                          title= {'text':'Goal Type Distribution','font':{'family':'SVN-Gilroy','size':20}},
                           xaxis=dict(title="",title_font=dict(family="SVN-Gilroy",size=20, weight= 'bold')),
                           yaxis=dict(title="",title_font=dict(family="SVN-Gilroy",size=20, weight = 'bold')),
                           legend=dict(title="SELECTED TEAM", title_font=dict(family="SVN-Gilroy", size=18, weight = 'bold'),
