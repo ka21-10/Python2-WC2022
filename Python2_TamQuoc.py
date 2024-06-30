@@ -504,7 +504,7 @@ else:
                 </div>""", unsafe_allow_html=True)
         with tab4:
             st.subheader("Counter & Pressing Techniques")
-            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT A TECHNIQUE BELOW!</p>', unsafe_allow_html=True)
+            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT 1 or 2 TECHNIQUE(S) BELOW!</p>', unsafe_allow_html=True)
     
     # Checkboxes for selection
             switches_of_play_selected = st.checkbox('Switches of play')
@@ -574,8 +574,6 @@ else:
                         tickfont=dict(size=20, family="SW-Gilroy", color="black", weight="bold")
                         ))
                     st.plotly_chart(fig_turnovers, use_container_width=True)
-                    pressing_url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/KVR5YXPPORIOPATIZPDP4D7PJI.jpg"
-                    st.image(pressing_url, use_column_width=True)
                     pressing2_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/Screenshot-121-1200x540-1-1200x540.png"
                     st.image(pressing2_url, use_column_width=True)
                     pressing3_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/export-7.png"
