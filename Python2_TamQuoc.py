@@ -502,7 +502,7 @@ else:
                 </div>""", unsafe_allow_html=True)
         with tab4:
             st.subheader("Counter & Pressing Techniques")
-            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT 1 or 2 TECHNIQUE(S) BELOW!</p>', unsafe_allow_html=True)
+            st.markdown('<p style="font-family: SVN-Gilroy; font-size: 18px; font-weight: bold;">PLEASE SELECT 1 OR 2 TECHNIQUE(S) BELOW!</p>', unsafe_allow_html=True)
     
     # Checkboxes for selection
             switches_of_play_selected = st.checkbox('Switches of play')
@@ -576,7 +576,7 @@ else:
                     st.image(pressing2_url, use_column_width=True)
             with col1:
                 col1 = st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Counter & Pressing Analysis Of All Teams</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Pressing Techniques Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
             <div style="font-size: 20px;">
             The line plots illustrate the average number of forced turnovers and switches of play for the 16 best teams in the World Cup 2022.
