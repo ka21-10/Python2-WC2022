@@ -576,7 +576,7 @@ else:
                     st.image(pressing2_url, use_column_width=True)
             with col1:
                 col1 = st.container()
-                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Pressing Techniques Analysis Of All Teams</span>', unsafe_allow_html=True)
+                st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Techniques Analysis Of All Teams</span>', unsafe_allow_html=True)
                 st.markdown("""
             <div style="font-size: 20px;">
             The line plots illustrate the average number of forced turnovers and switches of play for the 16 best teams in the World Cup 2022.
