@@ -199,7 +199,7 @@ def show_intro():
     col1, col2 = st.columns([0.5, 0.5], gap="small")
     with col1:
 
-        st.markdown("<h3 style='font-size: 25px;'>Please enter your name to begin our journey</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='font-size: 25px;'>Could we know your name to begin our journey. Please enter here!</h3>", unsafe_allow_html=True)
         prompt = st.text_input("")  # Empty label, as we're using the markdown above instead
         if prompt:
             st.markdown(f"""
@@ -209,7 +209,6 @@ def show_intro():
             all the necessary information you need to study some unseen tactics, strategies, 
             and influential factors that help spread "football to all". Please turn the left
             slidebar of 4 different categories off to see the content on the main page."
-            shows 4 different categories
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
