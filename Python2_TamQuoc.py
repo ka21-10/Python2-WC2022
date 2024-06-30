@@ -510,7 +510,7 @@ else:
     # Checkboxes for selection
             switches_of_play_selected = st.checkbox('Switches of play')
             forced_turnovers_selected = st.checkbox('Forced turnovers')
-            col1, col2 = st.columns([0.3, 0.7], gap="small")
+            col1, col2 = st.columns([0.4, 0.6], gap="small")
             with col2:
                 if switches_of_play_selected:
                     custom_palette = {'Switches of play': '#ff5b00'}
