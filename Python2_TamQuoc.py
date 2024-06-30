@@ -408,8 +408,6 @@ else:
                 st.plotly_chart(fig)
                 card_url="https://phapluatxahoi.kinhtedothi.vn/stores/news_dataimages/2022/122022/13/17/fifa-xoa-the-cho-cac-cau-thu-truoc-vong-ban-ket.jpg?rt=20221213172822"
                 st.image(card_url, use_column_width=True)
-                card2_url="https://ss-i.thgim.com/public/incoming/rhgyua/article66183714.ece/alternates/FREE_1200/2022-11-25T123942Z_1713214407_UP1EIBP0WUTEB_RTRMADP_3_SOCCER-WORLDCUP-WAL-IRN-REPORT.JPG"
-                st.image(card2_url, use_column_width=True)
         with col1:
                 st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Unfair Play Action Analysis Of All Teams</span>', unsafe_allow_html=True)
@@ -486,8 +484,6 @@ else:
                 st.image(possession_url, use_column_width=True)
                 possession2_url="https://lh3.googleusercontent.com/HgGcsLnU9nEdBczcwImV_NVCDFlsWzHl9Oyog3EwcP4Qiq25udQoNQd--m-EHrbLnWiZr8IRFnTKnZkFCuPsFR4NXL3Jp7BO2VAeYkKgrnZzLfY=s750"
                 st.image(possession2_url, use_column_width=True)
-                possession3_url="https://turntable.kagiso.io/images/32QA9J8-highres.width-800.jpg"
-                st.image(possession3_url, use_column_width=True)
             with col2:
                 col2 = st.container()
                 st.markdown('<span style="font-family: SVN-Gilroy; font-size: 25px; font-weight: bold;">Ball Possession Analysis Of All Teams</span>', unsafe_allow_html=True)
@@ -571,7 +567,7 @@ else:
                         tickfont=dict(size=20, family="SW-Gilroy", color="black", weight="bold")
                         ))
                     st.plotly_chart(fig_turnovers, use_container_width=True)
-                    pressing2_url="https://totalfootballanalysis.com/wp-content/uploads/2022/12/Screenshot-121-1200x540-1-1200x540.png"
+                    pressing2_url="https://www.coachesvoice.com/wp-content/webpc-passthru.php?src=https://www.coachesvoice.com/wp-content/uploads/2022/11/spain1.jpg&nocache=1"
                     st.image(pressing2_url, use_column_width=True)
             with col1:
                 col1 = st.container()
