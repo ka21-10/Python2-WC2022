@@ -190,7 +190,7 @@ pressing_official['Team'] = pd.Categorical(pressing_official['Team'], categories
 # Function to show the introduction page
 def show_intro():
     st.markdown("""
-        <h1 style='text-align: center; font-size: 100px;'>FOOTBALL FOR ALL</h1>
+        <h1 style='text-align: left; font-size: 80px;'>FOOTBALL FOR ALL</h1>
     """, unsafe_allow_html=True)
     
     st.divider()
@@ -207,7 +207,7 @@ def show_intro():
             <strong>Hello <i>{prompt}</i>. You are such a football enthusiast!</strong>
             Welcome to our analysis website about FIFA World Cup 2022. Here you will find 
             all the necessary information you need to study some unseen tactics, strategies, 
-            and influential factors in football.
+            and influential factors that help spread "football to all"
             </p>
                 """, unsafe_allow_html=True)
     st.markdown("---")
